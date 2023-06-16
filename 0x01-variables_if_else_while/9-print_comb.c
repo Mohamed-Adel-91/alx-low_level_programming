@@ -10,11 +10,11 @@
 
 int main(void)
 {
-	int d = 48;
+	int d = 0;
 
 	while (d <= 9)
 	{
-		putchar(d + 48);
+		putchar(d + 0);
 
 		if (d != 9)
 		{
