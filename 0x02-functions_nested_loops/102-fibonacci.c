@@ -11,11 +11,11 @@
 int main(void)
 {
 	int count;
-	unsigned long fibl = 1,	fib2 = 0, sum;
+	unsigned long fibl = 0,	fib2 = 1, sum;
 
 	for (count = 0; count < 50; count++)
 	{
-		sum = fib1 + fib2;
+		sum = fib2 + fib1;
 		printf("%lu", sum);
 
 		fib1 = fib2;
