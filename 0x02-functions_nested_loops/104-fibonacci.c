@@ -10,7 +10,7 @@
 
 int Lnum(int n)
 {
-	int lenght = 0;
+	int length = 0;
 
 	if (!n)
 		return (1);
