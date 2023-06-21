@@ -19,7 +19,7 @@ int Lnum(int n)
 		n = n / 10;
 		length += 1;
 	}
-	return (lenght);
+	return (length);
 }
 
 /**
