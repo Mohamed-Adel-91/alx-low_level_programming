@@ -4,8 +4,7 @@
 
 /**
  * main - Generate password for file 101-crackme
- *
- * Return: 0
+ * Return: 0 Success
  */
 
 int main(void)
@@ -16,7 +15,7 @@ int main(void)
 	srand(time(NULL));
 	while (sum <= 2645)
 	{
-		ch = rand() % 128;
+		ch = srand() % 128;
 		sum += ch;
 		putchar(ch);
 	}
