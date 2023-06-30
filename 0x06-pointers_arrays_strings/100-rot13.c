@@ -12,9 +12,9 @@ char *rot13(char *p)
 {
 	int i;
 
-	char rot13[] = "abcdefghijklmnopqrsuvwxyzABCDEFGHIJKLMNOPQRSUWXYZ";
+	char rot13[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUWXYZ";
 
-	char ROT13[] = "nopqrsuvwxyzabcdefghijklmNOPQRSUWXYZABCDEFGHIJKLM";
+	char ROT13[] = "nopqrstuvwxyzabcdefghijklmNOPQRSTUWXYZABCDEFGHIJKLM";
 
 	char *pointer = p;
 
