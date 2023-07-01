@@ -2,8 +2,8 @@
 
 /**
  * infinite_add - a function that adds two numbers
- * @n1: no. 1
- * @n2: no.2
+ * @n1: number 1
+ * @n2: number 2
  * @r: Char
  * @size_r: size
  * Return: r
@@ -11,11 +11,7 @@
 
 char *infinite_add(char *n1, char *n2, char *r, int size_r)
 {
-	int i = 0;
-	int j = 0;
-	int k;
-	int l = 0;
-	int f, s, d = 0;
+	int i = 0, j = 0, k, l = 0, f, s, d = 0;
 
 	while (n1[i] != '0')
 		i++;
