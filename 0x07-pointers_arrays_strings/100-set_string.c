@@ -3,7 +3,7 @@
 /**
  * set_string - a function that sets the value of a pointer to a char.
  * @s: input pointer
- * @to: size of the matrix
+ * @to: Pointer
  * Return: pointer
  */
 
