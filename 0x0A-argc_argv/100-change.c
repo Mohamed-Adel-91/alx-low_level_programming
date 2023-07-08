@@ -6,7 +6,7 @@
  * to make change for an amount of money.
  * @argc: integer of arguments passed
  * @argv: list of pointer of arguments passed
- * Return: Always 0
+ * Return: 0
  */
 
 int main(int argc, char *argv[])
