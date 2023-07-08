@@ -3,11 +3,9 @@
 
 /**
  * main - a program that multiplies two arguments passed into it
- *
  * @argc: integer of arguments passed
  * @argv: list of pointer of arguments passed
- *
- * Return: Always 0 (Success)
+ * Return: 0
  */
 
 int main(int argc, char *argv[])
