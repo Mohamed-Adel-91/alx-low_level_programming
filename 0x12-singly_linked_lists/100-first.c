@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include "list.h"
 /**
  * premain - function that runs before main
  *
